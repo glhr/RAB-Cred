@@ -1,0 +1,16 @@
+RAB-Cred/
+*.pdf
+*.png
+*.csv
+uv.lock
+.python-version
+.vscode/
+__pycache__
+*.swp
+*.swo
+*.csv
+.conda/
+*.json
+*.jsonl
+*.html
+experiment_results*/

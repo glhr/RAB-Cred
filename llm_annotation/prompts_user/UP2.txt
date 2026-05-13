@@ -1,0 +1,18 @@
+=================
+output_schema: YesNo
+credibility_schema_field: credibility_present
+=================
+
+Analyze the following legal case decision from the Flygtningenævnet (Danish Refugee Appeals Board) and determine whether credibility is assessed.  
+
+Case text: [INSERT CASE TEXT HERE]
+
+Is there a credibility assessment? Your answer should only contain "Y" or "N". 
+=================
+conditions:
+    credibility_present: Y
+output_schema: PosNeg
+credibility_schema_field: credibility_sentiment
+=================
+
+Now, determine the sentiment of the credibility assessment. Is the credibility assessment POSITIVE or NEGATIVE? Your answer should only contain the chosen category in capital letters. 

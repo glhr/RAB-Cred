@@ -1,0 +1,20 @@
+dataset:
+  human_csv_path: 'RAB-Cred/test_set200_labels.csv'
+  human_schema: ACLWCredibilityHumanMultiAnn
+llm:
+  system_prompt:
+    template_path: llm_annotation/prompts_system/SP0.txt
+  prompt:
+    template_path: llm_annotation/prompts_user/UP1.txt
+    placeholder: '[INSERT CASE TEXT HERE]'
+  library: hf
+  model:
+    name: ibm-granite/granite-4.0-micro
+    do_sample: False
+    temperature: 0
+    device: auto
+    max_new_tokens: 100000
+  output:
+    schema: ACLWCredibility
+results:
+  folder: experiment_results/experiment_results_test200_new

@@ -1,0 +1,22 @@
+=================
+output_schema: FreeText
+credibility_schema_field: reasoning
+=================
+
+Analyze the following legal case decision from the Flygtningenævnet (Danish Refugee Appeals Board) and classify it into one of the following three categories: [NO CREDIBILITY ASSESSMENT, POSITIVE CREDIBILITY ASSESSMENT, NEGATIVE CREDIBILITY ASSESSMENT].  
+
+Case text: [INSERT CASE TEXT HERE] 
+
+As you perform this task, follow these steps: 
+
+1. Clarify your understanding of the task and the case. 
+2. Make a preliminary judgment on whether a credibility assessment is made in the case, and if so, its sentiment. 
+3. Critically assess your preliminary analysis. If you are unsure about your initial judgment, reassess it. 
+4. Confirm your final answer and explain the reasoning behind your decision. 
+5. Evaluate your confidence (0-100%) in your analysis and provide an explanation for this confidence level. 
+=================
+output_schema: 3ClassCredibility
+credibility_schema_field: credibility_3cls
+=================
+
+To conclude, classify the case into one of the following three categories: [NO CREDIBILITY ASSESSMENT, POSITIVE CREDIBILITY ASSESSMENT, NEGATIVE CREDIBILITY ASSESSMENT]. Your answer should only contain the chosen category in capital letters. 
