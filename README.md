@@ -27,14 +27,14 @@ cd RAB-Cred
 Install requirements using uv (recommended):
 ```bash
 wget -qO- https://astral.sh/uv/install.sh | sh # install uv, see https://docs.astral.sh/uv/getting-started/installation/#installation-methods
-uv sync . # install dependencies
+uv sync # install dependencies
 ```
 
 Alternatively, install requirements using pip:
 ```bash
-# 1. Create a virtual environment (optional but recommended):
-python -m venv .venv
-source .venv/bin/activate  # On Windows: venv\Scripts\activate
+
+python -m venv .venv # create a virtual environment (optional but recommended)
+source .venv/bin/activate  # activate it (on Windows: venv\Scripts\activate)
 pip install -r requirements.txt
 ```
 
