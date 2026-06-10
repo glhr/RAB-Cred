@@ -140,5 +140,5 @@ def get_aggregated_dataframe(experiment_folders, exclude_idxs=None, subset="test
 
         return df_results_aggregated, df_case, df_case_merged
     elif subset == "val":
-        assert len(df_results_aggregated) == 630, f"Expected 630 results (21 models x 30 prompt combinations), but got {len(df_subset)}. Please check for duplicates or missing runs."
+        assert len(df_results_aggregated) == 630, f"Expected 630 results (21 models x 30 prompt combinations), but got {len(df_results_aggregated)}. Please check for duplicates or missing runs."
         return df_results_aggregated

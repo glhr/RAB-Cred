@@ -1,6 +1,6 @@
 # RAB-Cred
 
-This is the official code repository for the paper: **LLMs as annotators of credibility assessment in Danish asylum decisions: evaluating classification performance and errors beyond aggregated metrics**, to be presented at the 20th Linguistic Annotation Workshop (LAW-XX) @ ACL 2026.
+This is the official code repository for the paper: [**LLMs as annotators of credibility assessment in Danish asylum decisions: evaluating classification performance and errors beyond aggregated metrics**](https://arxiv.org/abs/2605.13412), to be presented at the [20th Linguistic Annotation Workshop (LAW-XX) @ ACL 2026](https://sigann.github.io/LAW-XX-2026/).
 
 ## Table of Contents
 
